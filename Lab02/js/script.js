@@ -252,17 +252,13 @@ function keyUp(){
 		}
 		// if(playing)
 		var currentText = document.getElementById("input_box").value.toLowerCase().trim();//$("#input_box").val().toLowerCase().trim();
-		console.log(currentText);
-		console.log(added_states)
-		if(currentText in states && added_states.indexOf(states[currentText]) < 0){
+		console.log(currentText)
+		console.log(added_states.indexOf(currentText))
+		if(currentText in states && added_states.indexOf(currentText) < 0){
 			timeLeft = MAX_TIME;
 			displayTimer(timeLeft);
 			document.getElementById("input_box").value = "";
 			state_titlecased = correct_states[states[currentText]];
-			
-			console.log("State Titlecased: " + state_titlecased);
-			console.log("state_" + states[currentText]);
-			
 			p_state = document.getElementById("state_" + states[currentText]);
 			p_state.innerHTML = state_titlecased;
 			var final_left = p_state.style.left;
@@ -270,7 +266,7 @@ function keyUp(){
 			p_state.style.left = "50%";
 			p_state.style.top = "0px";
 			p_state.style.visibility = "visible";
-			
+			console.log(added_states)
 			added_states.push(currentText);
 			document.getElementById("current_amount_guessed").innerHTML = added_states.length + "/50";
 			
@@ -320,7 +316,6 @@ function showAll(){
 
 function showRest(){
 	var rest = findRest();
-	console.log(rest);
 	for(var cnt = 0; cnt < rest.length; cnt++){
 		state_titlecased = correct_states[states[rest[cnt]]]
 		p_state = document.getElementById("state_" + states[rest[cnt]]);
@@ -348,7 +343,6 @@ function findRest(){
 }
 
 function updateTimer(){
-	console.log(timeLeft);
 	displayTimer(timeLeft);
 	if(timeLeft == 0){
 		document.getElementById("input_box").disabled = true;
