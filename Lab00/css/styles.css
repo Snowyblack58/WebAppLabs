@@ -1,0 +1,17 @@
+html, body{
+	background: #4A4A4A;
+	color: #EBEBEB;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+}
+
+p{
+	position: absolute;
+	left: 10px;
+	top: 100px;
+}

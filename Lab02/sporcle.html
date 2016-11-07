@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fiddy Niddy States</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+	</head>
+	<body onload="init()">
+		<div class="header">
+			<div id="back">
+				<a href="../index.html">< all labs</a>
+			</div>
+			<div id="title">
+				<p>Fiddy Niddy States</p>
+			</div>
+			<div id="description">
+				<p>To begin, start typing and time will start. You have just 3 seconds to type in a state.<br>
+				   The timer will reset once you type in a state. If time runs out, you lose. How many can you get?</p>
+			</div>
+			<div id="user_input">
+				<p class="timer_level_6" style="visibility:hidden">&#8727</p>
+				<p class="timer_level_5" style="visibility:hidden">&#8727</p>
+				<p class="timer_level_4" style="visibility:hidden">&#8727</p>
+				<p class="timer_level_3">&#8727</p>
+				<p class="timer_level_2">&#8727</p>
+				<p class="timer_level_1">&#8727</p>
+				<input id="input_box" type="text" onkeyup="keyUp()" onfocus="focused()"></input>
+				<p class="timer_level_1">&#8727</p>
+				<p class="timer_level_2">&#8727</p>
+				<p class="timer_level_3">&#8727</p>
+				<p class="timer_level_4" style="visibility:hidden">&#8727</p>
+				<p class="timer_level_5" style="visibility:hidden">&#8727</p>
+				<p class="timer_level_6" style="visibility:hidden">&#8727</p>
+			</div>
+			<div id="state_count">
+				<p id="current_amount_guessed">0/50</p>
+			</div>
+		</div>
+		<div class="main">
+		</div>
+		<div id="map" style="background-image: url(res/blank-us-map.png); background-repeat: no-repeat; background-position: center">
+			<div id="state_0" class="answer_text" style="position: absolute; left: 610px; top: 340px; visibility:hidden;"></div>
+			<div id="state_1" class="answer_text" style="position: absolute; left: 162px; top: 405px; visibility:hidden;"></div>
+			<div id="state_2" class="answer_text" style="position: absolute; left: 263px; top: 313px; visibility:hidden;"></div>
+			<div id="state_3" class="answer_text" style="position: absolute; left: 527px; top: 317px; visibility:hidden;"></div>
+			<div id="state_4" class="answer_text" style="position: absolute; left: 164px; top: 253px; visibility:hidden;"></div>
+			<div id="state_5" class="answer_text" style="position: absolute; left: 354px; top: 246px; visibility:hidden;"></div>
+			<div id="state_6" class="answer_text" style="position: absolute; left: 805px; top: 185px; visibility:hidden;"></div>
+			<div id="state_7" class="answer_text" style="position: absolute; left: 790px; top: 219px; visibility:hidden;"></div>
+			<div id="state_8" class="answer_text" style="position: absolute; left: 695px; top: 414px; visibility:hidden;"></div>
+			<div id="state_9" class="answer_text" style="position: absolute; left: 662px; top: 351px; visibility:hidden;"></div>
+			<div id="state_10" class="answer_text" style="position: absolute; left: 307px; top: 467px; visibility:hidden;"></div>
+			<div id="state_11" class="answer_text" style="position: absolute; left: 255px; top: 153px; visibility:hidden;"></div>
+			<div id="state_12" class="answer_text" style="position: absolute; left: 570px; top: 231px; visibility:hidden;"></div>
+			<div id="state_13" class="answer_text" style="position: absolute; left: 607px; top: 222px; visibility:hidden;"></div>
+			<div id="state_14" class="answer_text" style="position: absolute; left: 510px; top: 197px; visibility:hidden;"></div>
+			<div id="state_15" class="answer_text" style="position: absolute; left: 446px; top: 258px; visibility:hidden;"></div>
+			<div id="state_16" class="answer_text" style="position: absolute; left: 619px; top: 271px; visibility:hidden;"></div>
+			<div id="state_17" class="answer_text" style="position: absolute; left: 530px; top: 379px; visibility:hidden;"></div>
+			<div id="state_18" class="answer_text" style="position: absolute; left: 798px; top: 97px; visibility:hidden;"></div>
+			<div id="state_19" class="answer_text" style="position: absolute; left: 783px; top: 238px; visibility:hidden;"></div>
+			<div id="state_20" class="answer_text" style="position: absolute; left: 850px; top: 156px; visibility:hidden;"></div>
+			<div id="state_21" class="answer_text" style="position: absolute; left: 621px; top: 175px; visibility:hidden;"></div>
+			<div id="state_22" class="answer_text" style="position: absolute; left: 500px; top: 118px; visibility:hidden;"></div>
+			<div id="state_23" class="answer_text" style="position: absolute; left: 568px; top: 356px; visibility:hidden;"></div>
+			<div id="state_24" class="answer_text" style="position: absolute; left: 525px; top: 263px; visibility:hidden;"></div>
+			<div id="state_25" class="answer_text" style="position: absolute; left: 319px; top: 104px; visibility:hidden;"></div>
+			<div id="state_26" class="answer_text" style="position: absolute; left: 432px; top: 204px; visibility:hidden;"></div>
+			<div id="state_27" class="answer_text" style="position: absolute; left: 210px; top: 215px; visibility:hidden;"></div>
+			<div id="state_28" class="answer_text" style="position: absolute; left: 843px; top: 141px; visibility:hidden;"></div>
+			<div id="state_29" class="answer_text" style="position: absolute; left: 800px; top: 201px; visibility:hidden;"></div>
+			<div id="state_30" class="answer_text" style="position: absolute; left: 339px; top: 320px; visibility:hidden;"></div>
+			<div id="state_31" class="answer_text" style="position: absolute; left: 724px; top: 156px; visibility:hidden;"></div>
+			<div id="state_32" class="answer_text" style="position: absolute; left: 713px; top: 289px; visibility:hidden;"></div>
+			<div id="state_33" class="answer_text" style="position: absolute; left: 426px; top: 104px; visibility:hidden;"></div>
+			<div id="state_34" class="answer_text" style="position: absolute; left: 648px; top: 210px; visibility:hidden;"></div>
+			<div id="state_35" class="answer_text" style="position: absolute; left: 457px; top: 308px; visibility:hidden;"></div>
+			<div id="state_36" class="answer_text" style="position: absolute; left: 179px; top: 127px; visibility:hidden;"></div>
+			<div id="state_37" class="answer_text" style="position: absolute; left: 709px; top: 194px; visibility:hidden;"></div>
+			<div id="state_38" class="answer_text" style="position: absolute; left: 830px; top: 171px; visibility:hidden;"></div>
+			<div id="state_39" class="answer_text" style="position: absolute; left: 692px; top: 322px; visibility:hidden;"></div>
+			<div id="state_40" class="answer_text" style="position: absolute; left: 426px; top: 156px; visibility:hidden;"></div>
+			<div id="state_41" class="answer_text" style="position: absolute; left: 604px; top: 299px; visibility:hidden;"></div>
+			<div id="state_42" class="answer_text" style="position: absolute; left: 440px; top: 379px; visibility:hidden;"></div>
+			<div id="state_43" class="answer_text" style="position: absolute; left: 286px; top: 230px; visibility:hidden;"></div>
+			<div id="state_44" class="answer_text" style="position: absolute; left: 758px; top: 130px; visibility:hidden;"></div>
+			<div id="state_45" class="answer_text" style="position: absolute; left: 713px; top: 255px; visibility:hidden;"></div>
+			<div id="state_46" class="answer_text" style="position: absolute; left: 195px; top: 71px; visibility:hidden;"></div>
+			<div id="state_47" class="answer_text" style="position: absolute; left: 674px; top: 236px; visibility:hidden;"></div>
+			<div id="state_48" class="answer_text" style="position: absolute; left: 550px; top: 150px; visibility:hidden;"></div>
+			<div id="state_49" class="answer_text" style="position: absolute; left: 336px; top: 174px; visibility:hidden;"></div>
+		</div>
+
+		<div class="footer">
+			<p id="record">Your best is <span></span> for all 50 states.</p>
+		</div>
+		<input id="reset" type="button" onclick="clickOnDisabledInput()" style="visibility:hidden" accesskey="r"></input>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>

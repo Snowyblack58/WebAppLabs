@@ -1,0 +1,170 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2015.1.2)  19 MAY 2015 09:19
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"% FOIA REQUESTS ABOUT SUBLIMINALS^^M
+% MARK ENVELOPE WITH ^^M
+^^M
+\documentclass[10pt]{letter}^^M
+^^M
+\oddsidemargin=.2in^^M
+\evensidemargin=.2in^^M
+\textwidth=5.9in^^M
+\topmargin=-.5in^^M
+\textheight=9in^^M
+^^M
+^^M
+\name{Laura A. Taalman \ 3006 Ruth Street \ Durham, NC  27704}^^M
+^^M
+\date{\today}^^M
+^^M
+\begin{document}^^M
+^^M
+^^M
+% BODY OF ALL SUBLIMINAL LETTERS *******************************************^^M
+
+^^M
+\def \body^^M
+{This is a request under the Freedom of Information Act, 5 U.S.C. Sec. 552. ^^M
+
+^^M
+I request that copies of the following documents be provided to me:^^M
+^^M
+\begin{enumerate}^^M
+	\item  Any and all documents pertaining to the use of subliminal stimuli^^M
+	({\it e.g.} embedded images or words, ^^M
+	low-intensity light or sound, tachistoscopic displays) in ^^M
+	advertising, government operations, or other fields.^^M
+	^^M
+	\item  Any and all documents pertaining to companies or organizations^^M
+	that create, distribute, or sell subliminal material (including but not^^M
+	limited to Osman-Kord, Ltd. (Southern California), Proactive^^M
+	Systems (Portland, Oregon), and Stimutech, Inc. (East Lansing,^^M
+	Michigan)).^^M
+	^^M
+	\item Any and all documents pertaining to laws, statutes, regulations,^^M
+	or legal cases concerning subliminal stimuli.^^M
+	^^M
+	\item Any and all documents pertaining to the effectiveness ^^M
+	or non-effectiveness of subliminal stimuli.^^M
+\end{enumerate}^^M
+^^M
+I realize that the law may allow your agency to withhold specified ^^M
+categories or exempted information, but would like to remind you that it ^^M
+also requires you to release any segregable'' portions that are left over ^^M
+after exempt material is deleted.  Please also provide me with the name of ^^M
+the official to which administrative appeals should be directed.  If this ^^M
+request for documents is denied, I would like to receive a detailed ^^M
+justification for denial.^^M
+^^M
+I request a waiver of all fees for this request.  Disclosure of the ^^M
+requested information to me is in the public interest because it is likely ^^M
+to contribute significantly to public understanding of the operations or ^^M
+activities of corporations, the government, and the media, and is not ^^M
+primarily in my commercial interest.  I plan to make this information ^^M
+available over the internet; this will benefit the general public because ^^M
+the news media does not often report on this subject and the information I ^^M
+will make available will be an important resource for those who are ^^M
+concerned that subliminal messages may be in use (and will perhaps put to ^^M
+rest many questions as to the effectiveness or non-effectiveness of such ^^M
+material).  It would thus be unfair to make the first requester bear the ^^M
+full cost of the initial search for these documents.  To further determine ^^M
+my status to assess fees, you should know that I am affiliated with an ^^M
+educational institution, and this request is made for a scholarly purpose ^^M
+and not for a commercial use.^^M
+^^M
+Thank you for your consideration of this request.}^^M
+^^M
+^^M
+% LETTERS BEGIN HERE ******************************************************^^M
+^^M
+\begin{letter}{Dept. of Army \^^M
+               Chief, FOIA Division \^^M
+               USAIFC - P(ASQNS-OP-F) \^^M
+               Crystal Square II, Suite 201 \^^M
+               1725 Jefferson Davis Parkway \^^M
+               Arlington, VA  22202}               ^^M
+\opening{Dear Sir or Madam:} \body \closing{Respectfully,}^^M
+\end{letter}^^M
+^^M
+\begin{letter}{Central Intelligence Agency \^^M
+               Information and Privacy Coordinator \^^M
+               Office of Information Services \^^M
+               Washington, D.C. 20505}               ^^M
+\opening{Dear Sir or Madam:} \body \closing{Respectfully,}^^M
+\end{letter}^^M
+^^M
+\begin{letter}{Commerce Department \^^M
+               FOIA Officer, Room 6020 \^^M
+               4^{\rm th}$ and Constitution NW \^^M
+               Washington, DC  20230}               ^^M
+\opening{Dear Sir or Madam:} \body \closing{Respectfully,}^^M
+\end{letter}^^M
+^^M
+\begin{letter}{Consumer Product Safety Commission \^^M
+               Freedom of Information Offices \^^M
+               5401 Westbard Avenue \^^M
+               Bethesda, MD 20816}               ^^M
+\opening{Dear Sir or Madam:} \body \closing{Respectfully,}^^M
+\end{letter}^^M
+^^M
+\begin{letter}{Defense Department \^^M
+               Office of the Secretary of Defense \^^M
+               Director, Freedom of Information \^^M
+               Room 2C757, Pentagon \^^M
+               Arlington, VA 20301-1400}               ^^M
+\opening{Dear Sir or Madam:} \body \closing{Respectfully,} ^^M
+\end{letter}^^M
+^^M
+\begin{letter}{Federal Bureau of Investigation \^^M
+               Chief FOIA \& Privacy Act Section \^^M
+               Room 6296 JEH \^^M
+               Washington, D.C. 20535}               ^^M
+\opening{Dear Sir or Madam:} \body \closing{Respectfully,}^^M
+\end{letter}^^M
+^^M
+\begin{letter}{Federal Trade Commission \^^M
+               FOIA Branch \^^M
+               Room 682 \^^M
+               6th and Pennsylvania Ave., N.W. \^^M
+               Washington, D.C. 20580}               ^^M
+\opening{Dear Sir or Madam:} \body \closing{Respectfully,}^^M
+\end{letter}^^M
+^^M
+\begin{letter}{Food and Drug Administration \^^M
+               5600 Fishers Lane, (HF 1 - 35) \^^M
+               Rockville, M.D. 20857}               ^^M
+\opening{Dear Sir or Madam:} \body \closing{Respectfully,}^^M
+\end{letter}^^M
+^^M
+\begin{letter}{National Security Council \^^M
+               Director \^^M
+               Information Disclosure \^^M
+               Washington, D.C. 20506}               ^^M
+\opening{Dear Sir or Madam:} \body \closing{Respectfully,}^^M
+\end{letter}^^M
+^^M
+^^M
+^^M
+\end{document}"
+
+*
+! Emergency stop.
+<*> ...\end{letter}^^M
+^^M
+^^M
+^^M
+\end{document}"
+                                                  
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 2 strings out of 495019
+ 94 string characters out of 3181684
+ 45144 words of memory out of 3000000
+ 3295 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 0i,0n,0p,1b,6s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

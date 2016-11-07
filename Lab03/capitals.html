@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Capitals</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div class="header">
+			<div id="back">
+				<a href="../index.html">< all labs</a>
+			</div>
+			<div id="title">
+				<p>Capitals</p>
+			</div>
+			<div id="description">
+				<p>Description goes here, but I'm currently too lazy or I have better priorities to take care of.<br>
+				   So I'm just going to have some text here to fill the space. I'm sure you're smart enough to figure it out.</p>
+			</div>
+			<div id="start-button">
+				<input type="button" value="Start" onclick="init()"></input>
+			</div>
+		</div>
+		<div class="main">
+			<div id="scoreboard">
+				<p id="scoreboard-text">0/0</p>
+				<p id="timer-text">0:00</p>
+			</div>
+			<div id="capitals-list">
+			</div>
+		</div>
+		<div class="footer">
+			<p id="record-percentage">Your best percentage is <span></span>.</p>
+			<p id="record-time">Your best time is <span></span>.</p>
+		</div>
+		<input id="reset" type="button" onclick="reset()" style="visibility:hidden" accesskey="r"></input>
+		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>

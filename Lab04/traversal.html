@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<!--DIV P UL LI SPAN SCRIPT-->
+	<head>
+		<title>Fiddy Niddy States</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+	</head>
+	<body onclick="onClick(event)">
+		<div class="header">
+			<div id="back">
+				<p>< all labs backspace to go back</p>
+			</div>
+			<div id="title">
+				<p>Fiddy Niddy States</p>
+			</div>
+			<div id="description">
+				<p>To begin, start typing and time will start. You have just 3 seconds to type in a state.<br>
+				   The timer will reset once you type in a state. If time runs out, you lose. How many can you get?</p>
+			</div>
+			<div id="user_input">
+				<p class="timer_level_3">&#8727</p>
+				<p class="timer_level_2">&#8727</p>
+				<p class="timer_level_1">&#8727</p>
+				<input id="input_box" type="text"></input>
+				<p class="timer_level_1">&#8727</p>
+				<p class="timer_level_2">&#8727</p>
+				<p class="timer_level_3">&#8727</p>
+			</div>
+			<div id="state_count">
+				<p id="current_amount_guessed">0/50</p>
+			</div>
+		</div>
+		<div class="main">
+			<ul>
+				<li>I LIKE TRAFFIC LIGHTS</li>
+				<li>I LIKE PI</li>
+				<li>I LIKE PIE</li>
+				<li>I LIKE E</li>
+				<li>I LIKE YOU...TOPIAN SOCIETIES</li>
+			</ul>
+		</div>
+
+		<div class="footer">
+			<p id="record">Your best is <span style=>50</span> for all 50 states.</p>
+		</div>
+		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>

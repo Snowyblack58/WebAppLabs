@@ -1,0 +1,30 @@
+longest word with duplicate letter
+(?=\w*([A-z])\w*\1\w*)^\w{28}$
+
+shortest word with duplicate letter
+(?=\w*([A-z])\w*\1\w*)^\w{2}$
+
+longest word with duplicate letter in a row
+(?=\w*([A-z])\1\w*)^\w{28}$
+
+shortest word with duplicate letter in a row
+(?=\w*([A-z])\1\w*)^\w{2}$
+
+longest word
+^\w{28}$
+
+longest word without e
+^(?=^[^Ee]*(?![Ee])[^Ee]*$)^\w{22}$
+
+longest word without e with a
+^(?=.*^[^Ee]*(?!.*[Ee])[^Ee]*$)(?=.*[Aa])^\w{22}$
+
+word with most vowels
+([aeiou]\w*){13}
+
+longest word with all five vowels
+(?=.*a)(?=.*e)(?=.*i)(?=.*o)(?=.*u)^\w{25}$
+
+8 letter words with t in the third place
+(?=.{2}t)^\w{8}$
+

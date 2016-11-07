@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Web App Labs</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body onload="document.getElementById('text').focus()">
+		<input id="text" type="text"></input>
+		<form>
+			<input id="m" type="radio">M</input>
+			<input id="f" type="radio">F</input>
+		</form>
+		<button id="button" type=button accesskey=s onclick="alert('sup'); console.log('inline'); return false;"><u>S</u>tart</button>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+
+		<script type="text/javascript">
+			$("#button").click(function(){
+				console.log(document.getElementById("m").value);
+			});
+		</script>
+	</body>
+</html>
